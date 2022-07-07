@@ -1,0 +1,24 @@
+.root {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.imageContent {
+  object-fit: cover;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
